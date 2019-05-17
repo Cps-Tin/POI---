@@ -8,7 +8,7 @@
     public void export(HttpServletResponse response) throws Exception {
 
         //日期格式化对象
-        SimpleDateFormat simpleDateFormat = new SimpleDateFormat("yyyy-MM-dd HH:mm:ss");
+        SimpleDateFormat simpleDateFormat = new SimpleDateFormat("yyyyMMddHHmmss");
 
         //获取数据
         List<User> list = userService.getUserList();
